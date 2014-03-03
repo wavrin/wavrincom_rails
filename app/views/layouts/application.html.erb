@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wavrincom</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="col-md-3">
+          <h3>
+
+            <a href="/">Christopher Wavrin</a>
+
+          </h3>
+
+            <p>Hi. I'm a software development consultant and I live in Minneapolis.</p>
+          <p>This site is a collection of my thoughts on software development, business, and whatever else I can think of.</p>
+          
+          <a href="https://twitter.com/wavrin"><img src="http://wavrincom.s3.amazonaws.com/logos/twitter.png"></a> &nbsp;
+          <a href="http://www.linkedin.com/in/wavrin"><img src="http://wavrincom.s3.amazonaws.com/logos/LinkedIn.png"></a> &nbsp;
+          <a href="https://github.com/wavrin"><img src="http://wavrincom.s3.amazonaws.com/logos/github.png"></a>
+          
+          
+        </div>
+        <div class="col-md-9">
+						<%= yield %>
+        </div>
+      </div>
+    </div>
+
+
+<p class="text-center">&#169; Christopher Wavrin 2014 | <a href="/rss/feed" rel="subscribe-rss" title="subscribe via RSS">RSS</a></p>
+
+
+</body>
+</html>
