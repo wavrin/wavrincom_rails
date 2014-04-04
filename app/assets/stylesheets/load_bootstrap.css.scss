@@ -10,6 +10,11 @@ $jumbotron-bg:                                         white;
 
 @import 'bootstrap';
 
+* {
+	margin: 0;
+	
+}
+
 h1, h2, h3, h4
 {
   font-family: "Lato", 'Helvetica Neue', 'Helvetica', sans-serif;
