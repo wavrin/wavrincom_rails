@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic|Lato:400,700,400italic|Sofadi+One);
 
 $body-bg:                                                   white;
 $font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -10,4 +10,20 @@ $jumbotron-bg:                                         white;
 
 @import 'bootstrap';
 
+h1, h2, h3, h4
+{
+  font-family: "Lato", 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-weight: 700;
+}
 
+html, body {
+    height: 100%;
+    font-family: "Merriweather", 'Georgia', serif;
+    font-size: 1.0em;
+}
+
+.sidebar
+{
+  font-family: "Sofadi One", 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 1.0em;
+}
