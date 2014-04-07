@@ -1,7 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic|Lato:400,700,400italic|Sofadi+One);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic|Bitter:400,700|Sofadi+One);
 
 $body-bg:                                                   white;
-$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-sans-serif:                'Bitter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height:                                        45px;
 $navbar-default-bg:                          white;
 $navbar-default-brand-color:      #c0392b;
@@ -17,7 +17,7 @@ $jumbotron-bg:                                         white;
 
 h1, h2, h3, h4
 {
-  font-family: "Lato", 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-family: "Bitter", 'Helvetica Neue', 'Helvetica', sans-serif;
   font-weight: 700;
 }
 
@@ -29,6 +29,7 @@ html, body {
 
 .sidebar
 {
-  font-family: "Sofadi One", 'Helvetica Neue', 'Helvetica', sans-serif;
-	font-size: 1.0em;
+  font-family: "Merriweather", 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 0.9em;
+	color: gray;
 }
