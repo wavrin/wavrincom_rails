@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20140404022539) do
 
-  create_table "articles", force: true do |t|
+  create_table "articles", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
     t.text     "body"
@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20140404022539) do
     t.string   "slug"
   end
 
-  create_table "users", force: true do |t|
+  create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
     t.string   "password_digest"
